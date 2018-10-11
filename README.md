@@ -5,6 +5,7 @@ This is the base of `gior` for you to easily follow along the [how to build html
 1. [Get Started](#get-started)
 2. [Historic](#historic)
 3. [Changes](#changes)
+3. [Data](#data)
 
 ## Get Started
 
@@ -19,7 +20,7 @@ Clone this [repository](https://github.com/JohnCoene/base-gior) with `git clone 
 
 ## Historic
 
-Here are the only two functions that were ran:
+Here are the only functions that were ran:
 
 1. `devtools::create("gior")`
 2. `htmlwiidgets::scaffoldWidget("gior")`
@@ -97,3 +98,6 @@ inst/
 |   |   |   |-- three.min.js
 ```
 
+## Data
+
+The package also includes random data for you to test your package which can be loaded with `data("country_data")`.
