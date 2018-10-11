@@ -40,7 +40,7 @@ inst/
 
 Simply for convenience and for one to quickly get on the some files were already edited or added.
 
-#### DESCRIPTION
+### DESCRIPTION
 
 Edited some meta information that you should change and added necessary `Imports`:
 
@@ -48,7 +48,7 @@ Edited some meta information that you should change and added necessary `Imports
 2. `shiny`
 3. `jsonlite`
 
-#### YML
+### YML
 
 The `gior.yml` file located in the `inst` folder was edited from:
 
@@ -78,7 +78,7 @@ dependencies:
 
 *The [blogpost]() explains what this file does.*
 
-#### lib
+### lib
 
 The `lib` directory (and its sub directories); we essentially added the dependencies (that are referred to in the *YML section* above)
 
