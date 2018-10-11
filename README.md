@@ -1,6 +1,10 @@
-# gior
+# gior-base
 
-This is the base of `gior` for one to easily follow along the [how to build htmlwidgets blogpost]().
+This is the base of `gior` for you to easily follow along the [how to build htmlwidgets blogpost]() and build the widget yourself.
+
+1. [Get Started](#get-started)
+2. [Historic](#historic)
+3. [Changes](#changes)
 
 ## Get Started
 
@@ -13,7 +17,7 @@ Clone this [repository](https://github.com/JohnCoene/base-gior) with `git clone 
 5. And paste the URL (`https://github.com/JohnCoene/base-gior.git`) under `Repository URL`
 6. Finally, click `Create Project`.
 
-## .Rhistory
+## Historic
 
 Here are the only two functions that were ran:
 
@@ -32,7 +36,7 @@ inst/
 |   |-- gior.yaml
 ```
 
-## Edited files
+## Changes
 
 Simply for convenience and for one to quickly get on the some files were already edited or added.
 
@@ -76,7 +80,7 @@ dependencies:
 
 #### lib
 
-The `lib` directory (and its sub directories).
+The `lib` directory (and its sub directories); we essentially added the dependencies (that are referred to in the [YML section](#YML))
 
 ```
 R/
