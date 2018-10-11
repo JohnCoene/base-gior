@@ -52,7 +52,7 @@ Edited some meta information that you should change and added necessary `Imports
 
 The `gior.yml` file located in the `inst` folder was edited from:
 
-```yaml
+```yml
 # (uncomment to add a dependency)
 # dependencies:
 #  - name:
@@ -80,7 +80,7 @@ dependencies:
 
 #### lib
 
-The `lib` directory (and its sub directories); we essentially added the dependencies (that are referred to in the [YML section](#YML))
+The `lib` directory (and its sub directories); we essentially added the dependencies (that are referred to in the *YML section* above)
 
 ```
 R/
