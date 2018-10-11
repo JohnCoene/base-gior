@@ -1,6 +1,6 @@
 # gior-base
 
-This is the base of `gior` for you to easily follow along the [how to build htmlwidgets blogpost]() and build the widget yourself.
+This is the base of `gior` for you to easily follow along the [how to build htmlwidgets blogpost]() and build the htmlwidget for [gio.js](http://giojs.org/index.html) yourself!
 
 1. [Get Started](#get-started)
 2. [Historic](#historic)
