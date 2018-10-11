@@ -5,7 +5,8 @@ This is the base of `gior` for you to easily follow along the [how to build html
 1. [Get Started](#get-started)
 2. [Historic](#historic)
 3. [Changes](#changes)
-3. [Data](#data)
+4. [Data](#data)
+5. [Package](#package)
 
 ## Get Started
 
@@ -101,3 +102,13 @@ inst/
 ## Data
 
 The package also includes random data for you to test your package which can be loaded with `data("country_data")`.
+
+## Package
+
+This is a package, remember that to see changes reflected you will have to run:
+
+1. `devtools::document()`
+2. Then`devtools::install()` or `CTRL/CMD + SHIFT + B` from RStudio.
+
+**Note that, as is, the package does not pass `R CMD Check`.**
+
