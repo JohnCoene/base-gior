@@ -1,6 +1,6 @@
 # gior-base
 
-This is the base of `gior` for you to easily follow along the [how to build htmlwidgets blogpost]() and build the htmlwidget for [gio.js](http://giojs.org/index.html) yourself!
+This is the base of `gior` for you to easily follow along the [how to build htmlwidgets blogpost](https://john-coene.com/blog/how-to-htmlwidgets/) and build the htmlwidget for [gio.js](http://giojs.org/index.html) yourself!
 
 1. [Get Started](#get-started)
 2. [Historic](#historic)
@@ -15,7 +15,7 @@ Clone this [repository](https://github.com/JohnCoene/base-gior) with `git clone 
 1. go to `File`
 2. Click on `New Project`
 3. Select `Version Control`
-4. Then `Git`
+4. Then select `Git`
 5. And paste the URL (`https://github.com/JohnCoene/base-gior.git`) under `Repository URL`
 6. Finally, click `Create Project`.
 
@@ -40,7 +40,7 @@ inst/
 
 ## Changes
 
-Simply for convenience and for one to quickly get on the some files were already edited or added.
+Simply for convenience and for one to quickly get on with building the widget, some files were already edited or added.
 
 ### DESCRIPTION
 
@@ -78,7 +78,7 @@ dependencies:
    script: gio.min.js
 ```
 
-*The [blogpost]() explains what this file does.*
+*The [blogpost](https://john-coene.com/blog/how-to-htmlwidgets/) explains what this file does.*
 
 ### lib
 
@@ -110,5 +110,5 @@ This is a package, remember that to see changes reflected you will have to run:
 1. `devtools::document()`
 2. Then`devtools::install()` or `CTRL/CMD + SHIFT + B` from RStudio.
 
-**Note that, as is, the package does not pass `R CMD Check`.**
+**Note that, as is, the package works but does not pass `R CMD Check`.**
 
