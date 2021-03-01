@@ -12,6 +12,8 @@ gior <- function(message, width = NULL, height = NULL, elementId = NULL) {
     message = message
   )
 
+  attr(x, 'TOJSON_ARGS') <- list(dataframe = "rows")
+
   # create widget
   htmlwidgets::createWidget(
     name = 'gior',
